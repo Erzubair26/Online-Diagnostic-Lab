@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ONLINEDIAGNOSTICLAB.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+
+
+    
+    <script src="../Scripts/jquery-1.11.2.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../CSS/Custom.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div class="container-fluid row Header">
+
+            <div class="col-md-12" style="min-height:60px;">
+               <div class="col-md-6">
+                    
+                   <h2>
+                       <img src="../images/SliderImages/9.jpg" width="80" height="70" />&nbsp ONLINE DIAGNOSTIC LAB</h2>
+
+                </div>
+                  <div class="col-md-6" style="height:60px; text-align:center; margin-top:20px;">
+
+                      </div>
+                </div>
+         
+   <div class="col-md-12" data-spy="affix" data-offset-top="100"  style="background-color:#138ee4">
+                     <div class="navigation">
+					<nav class="navbar">
+					 
+				
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
+							<span class="sr-only">Toggle navigation</span>
+							<p class="badge"><b>Menu</b></p>
+						  </button>
+						</div>
+						<div class="collapse navbar-collapse nav-wil" id="bs">
+							  <ul class="nav navbar-nav" style="padding-top:25px; padding-left:100px;" >
+								 <li class="active"><a href="Default.aspx"><b style="color:white;"> Home</b> <span class="sr-only">(current)</span></a></li>
+                                 <li><a href="CreateUser.aspx"><b style="margin-left:5px;color:white"> CreateUser</b></a></li>
+                                 <li><a href="ManageUser.aspx"><b  style="margin-left:5px;color:white "> ManageUser</b></a></li>
+							
+                                 <li><a href="Notifications.aspx"><b  style="margin-left:5px;color:white ">Notifications</b></a></li>
+							    <li><a href="AddTests.aspx"><b  style="margin-left:5px;color:white ">AddTests</b></a></li>
+							     <li><a href="EditProfile.aspx"><b  style="margin-left:5px;color:white ">EditProfile </b></a></li>
+                                 <li><a href="Profile.aspx"><b  style="margin-left:5px;color:white ">Profile </b></a></li>
+                                <li><a href="../Default.aspx"><b  style="margin-left:5px;color:white">Logout </b></a></li>
+                             </ul>
+						  <div class="clearfix"></div>
+						  </div>
+					      </nav>
+			              </div>
+
+
+
+            </div>
+
+</div>
+
+
+
+
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+              <div class="row Footer" >
+<div class="col-md-12">
+
+    <div class="col-md-9">
+
+        <h2>Contact Us</h2>
+      
+<div class="col-md-12 FooterInner">
+				
+                <div style="color:white;width:60px;height:60px;border:2px solid white;float:left;background-color:#5b9bd5;">
+                <span class="glyphicon glyphicon-envelope" style="padding:9px;font-size:35px;"></span>
+                   
+
+                </div>
+   <p>&nbsp&nbsp erzubair26@gmail.com,<br />
+       &nbsp&nbsp darzubair26@gmail.com.</p> 
+    
+			</div>
+
+
+        <div class="col-md-12 FooterInner">
+			 <div style="color:white;width:60px;height:60px;border:2px solid white;float:left;background-color:#5b9bd5;">
+                    <span class="glyphicon glyphicon-phone" style="padding:9px;font-size:35px;"></span>
+                    
+
+                </div>
+             <p>&nbsp&nbsp +91 8715954434,<br /> 
+                &nbsp&nbsp  +91 7006728122.</p>
+           
+            </div>
+            <div class="col-md-12 FooterInner">
+
+			 <div style="color:white;width:60px;height:60px;border:2px solid white;float:left;background-color:#5b9bd5;">
+                    <span class="glyphicon glyphicon-map-marker" style="padding:9px;font-size:35px;"></span>
+                    
+
+                </div>
+
+                <p>&nbsp&nbsp Hanjipora Shopian,<br />
+                   &nbsp&nbsp  J&K 192303.</p>
+                <br />
+</div>
+
+    </div>
+    </div>
+                  </div>
+
+
+
+        
+    </form>
+</body>
+</html>
