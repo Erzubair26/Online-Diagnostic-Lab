@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="Profile.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.User.Profile" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LabTechnition/Labtec.Master" AutoEventWireup="true" CodeBehind="Profile.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.LabTechnition.Profile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-         <div>
-             <asp:Image ID="imgProfile" Width="300" Height="200" runat="server" />
+     <div>
+
           <div>
         <table class="table table-condensed table-hover">
             <tr>
@@ -50,5 +50,20 @@
 
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </asp:Content>

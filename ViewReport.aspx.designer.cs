@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ONLINEDIAGNOSTICLAB.User {
+namespace ONLINEDIAGNOSTICLAB.LabTechnition {
     
     
     public partial class ViewReport {

@@ -1,8 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="ViewReport.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.User.ViewReport" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LabTechnition/Labtec.Master" AutoEventWireup="true" CodeBehind="ViewReport.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.LabTechnition.ViewReport" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid">
+
+   <div class="container-fluid">
 
        <div class="col-md-12">
        <div runat="server" id="printDiv">
@@ -123,5 +124,4 @@
             return false;
         }
     </script>
-       
 </asp:Content>

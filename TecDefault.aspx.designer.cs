@@ -11,7 +11,7 @@ namespace ONLINEDIAGNOSTICLAB.LabTechnition
 {
 
 
-    public partial class Error
+    public partial class TecDefault
     {
     }
 }

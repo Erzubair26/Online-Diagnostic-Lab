@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ONLINEDIAGNOSTICLAB.LabTechnition
 {
-    public partial class Error : System.Web.UI.Page
+    public partial class Labtec : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

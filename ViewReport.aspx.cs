@@ -5,20 +5,19 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using DataAccessLayer;
-using BusinessObject;
 using System.Data;
 
-namespace ONLINEDIAGNOSTICLAB.User
+namespace ONLINEDIAGNOSTICLAB.LabTechnition
 {
     public partial class ViewReport : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if(!IsPostBack)
             {
-                if (Request.QueryString["bid"] == null)
+                if(Request.QueryString["bid"] == null)
                 {
-                    Response.Redirect("~/User/Appointments.aspx");
+                    Response.Redirect("~/LabTechnition/AddedReports.aspx");
                 }
                 else
                 {

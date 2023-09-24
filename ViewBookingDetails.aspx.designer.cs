@@ -10,7 +10,16 @@
 namespace ONLINEDIAGNOSTICLAB.LabTechnition {
     
     
-    public partial class Profile {
+    public partial class ViewBookingDetails {
+        
+        /// <summary>
+        /// imgProfile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgProfile;
         
         /// <summary>
         /// lblName control.
@@ -49,6 +58,15 @@ namespace ONLINEDIAGNOSTICLAB.LabTechnition {
         protected global::System.Web.UI.WebControls.Label lblAddress;
         
         /// <summary>
+        /// lblAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAge;
+        
+        /// <summary>
         /// lblContactNo control.
         /// </summary>
         /// <remarks>
@@ -76,12 +94,57 @@ namespace ONLINEDIAGNOSTICLAB.LabTechnition {
         protected global::System.Web.UI.WebControls.Label lblUserName;
         
         /// <summary>
-        /// btnEdit control.
+        /// lblTest control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEdit;
+        protected global::System.Web.UI.WebControls.Label lblTest;
+        
+        /// <summary>
+        /// hdnTestId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdnTestId;
+        
+        /// <summary>
+        /// lblBookingdate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblBookingdate;
+        
+        /// <summary>
+        /// lblAppointmentDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAppointmentDate;
+        
+        /// <summary>
+        /// lblRefBy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblRefBy;
+        
+        /// <summary>
+        /// lblStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatus;
     }
 }

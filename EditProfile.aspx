@@ -1,13 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/User.Master" AutoEventWireup="true" CodeBehind="EditProfile.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.User.EditProfile" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/LabTechnition/Labtec.Master" AutoEventWireup="true" CodeBehind="EditProfile.aspx.cs" Inherits="ONLINEDIAGNOSTICLAB.LabTechnition.EditProfile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div>
-    
-         <div>
-             <asp:Image ID="imgProfile" Width="300" Height="200" runat="server" />
-          </div>
-              <div>
+
+
+     <div>
+
+          <div>
         <table class="table table-condensed table-hover">
             <tr>
                 <td>Name</td>
@@ -41,15 +40,10 @@
             </tr>
          
            <tr>
-               <td>
-                   Upload Image:
-               </td>
-               <td>
-                   <asp:FileUpload  runat="server" ID="fileUpImage" />
-               </td>
+
                <td>
 
-                   <asp:Button Text="Save" runat="server"  ID="btnUpdate" OnClick="btnUpdate_Click"/>
+                   <asp:Button Text="Save" runat="server"  ID="btnEdit" OnClick="btnEdit_Click"/>
 
                </td>
 
@@ -58,11 +52,29 @@
             
             
         </table>
-                  <div>
-                      <asp:Label ID="lblMsg" runat="server" />
-                  </div>
     </div>
 
 
+
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </asp:Content>

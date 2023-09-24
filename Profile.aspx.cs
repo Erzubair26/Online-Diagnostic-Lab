@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data;
 using BusinessObject;
 using DataAccessLayer;
+using System.Data;
 
-namespace ONLINEDIAGNOSTICLAB.User
+namespace ONLINEDIAGNOSTICLAB.LabTechnition
 {
     public partial class Profile : System.Web.UI.Page
     {
@@ -19,7 +19,7 @@ namespace ONLINEDIAGNOSTICLAB.User
 
             if (!IsPostBack)
             {
-                GetMyProfileDetails();
+                GetAdminDetails();
 
 
             }
@@ -28,7 +28,7 @@ namespace ONLINEDIAGNOSTICLAB.User
         }
 
 
-        private void GetMyProfileDetails()
+        private void GetAdminDetails()
         {
             AdminDal dal = new AdminDal();
 
@@ -44,7 +44,7 @@ namespace ONLINEDIAGNOSTICLAB.User
                 lblUserName.Text = dr["UserName"].ToString();
                 lblGender.Text = dr["Gender"].ToString();
                 lblContactNo.Text = dr["ContactNo"].ToString();
-                imgProfile.ImageUrl = dr["ImagePath"].ToString();
+
 
 
 
@@ -57,6 +57,5 @@ namespace ONLINEDIAGNOSTICLAB.User
 
             Server.Transfer("EditProfile.aspx");
         }
-        
     }
 }
